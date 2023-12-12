@@ -1,0 +1,1 @@
+cmd_/home/akshatjksel/Desktop/mywork/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/akshatjksel/Desktop/mywork/Module.symvers -T /home/akshatjksel/Desktop/mywork/modules.order -i Module.symvers -e 

@@ -1,0 +1,1 @@
+cmd_/home/akshatjksel/Desktop/mywork/majorminor.mod := printf '%s\n'   majorminor.o | awk '!x[$$0]++ { print("/home/akshatjksel/Desktop/mywork/"$$0) }' > /home/akshatjksel/Desktop/mywork/majorminor.mod

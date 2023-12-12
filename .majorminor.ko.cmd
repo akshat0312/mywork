@@ -1,0 +1,1 @@
+cmd_/home/akshatjksel/Desktop/mywork/majorminor.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/akshatjksel/Desktop/mywork/majorminor.ko /home/akshatjksel/Desktop/mywork/majorminor.o /home/akshatjksel/Desktop/mywork/majorminor.mod.o;  true
