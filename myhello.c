@@ -7,8 +7,8 @@
 */
 static int __init hello_world_init(void)
 {
-    printk(KERN_INFO "Welcome to EmbeTronicX\n");
-    printk(KERN_INFO "This is the Simple Module\n");
+    printk(KERN_INFO "Welcome to JKSEL\n");
+    printk(KERN_INFO "This is the Simple Module built by AKSHAT\n");
     printk(KERN_INFO "Kernel Module Inserted Successfully...\n");
     return 0;
 }
@@ -24,6 +24,6 @@ module_init(hello_world_init);
 module_exit(hello_world_exit);
  
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("EmbeTronicX <embetronicx@gmail.com>");
+MODULE_AUTHOR("akshat kaushik");
 MODULE_DESCRIPTION("A simple hello world driver");
 MODULE_VERSION("2:1.0");
